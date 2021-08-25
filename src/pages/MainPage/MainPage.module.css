@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
+* {
+    font-family: 'Poppins',sans-serif;
+    padding: 0;
+    list-style: none;
+    
+}
+
+.title h2 {
+    font-size: 2.5em;
+    color:#0B254B;
+    text-align: center;
+    margin-top: 1.625em;
+    font-weight: 500;
+}
+.title p {
+    font-size: 1.125em;
+    color: #5E6E89;
+    text-align: center;
+
+}
+.container {
+    max-width: 1110px;
+}
+.products {
+    padding:5.625em 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:2em;
+    margin-top: 3.5em;
+    margin-bottom: 7.5em;
+}
+.grid img {
+    background-color: #F7F8FA;
+}
+.content {
+    width: 250px;
+    /* box-shadow:         0px -1px 30px 0px rgba(0, 0, 0, 0.26); */
+  
+}
+.content__title {
+    width: 100%;
+    padding:0 1em;
+}
+.content__name {
+    font-weight: 500;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 0.5em;
+    color:black !important;
+}
+.content__cost {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25em;
+    font-weight: 500;
+    color:#56B280 !important;
+    display: flex;
+    justify-content: flex-end;
+}
+/* HERO */
+.hero {
+    background-color: #F7F8FA;
+    padding: 6em 0;
+}
+.hero__wrapper {
+    display: flex;
+    align-items: center;
+    gap:2em;
+}
+
+.hero__title h2 {
+    font-size: 2.5em;
+    font-weight: 500;
+    color:#1D252C;
+    line-height: 116%;
+}
+.hero__title p {
+    color:#56B280 ;
+    margin-top: 1em;
+}
+.hero__list {
+    margin-top: 2em;
+    margin-bottom: 4em;
+}
+.hero__list li{
+    padding:0.5em 0;
+}
+.hero__list li img{
+    margin-right: 0.65em;
+}
+/* TESTIMONIALS */
+.testimonials__wrapper {
+    background-color:#56B2801A;
+    padding:5em 0;
+    
+}
+.testimonials__title h2{
+    font-weight: 500;
+    color:#0B254B;
+    text-align: center;
+    font-size: 2.75em;
+}
+.testimonials__title p {
+    font-size: 1.125em;
+    color: #5E6E89;
+    text-align: center;
+}
+.testimonials__ceo {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+.testimonials__content {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 21em;
+    border-radius: 0.5em;
+}
+.testimonials__content p {
+    font-size: 1.5em;
+    color:#1D293F;
+    text-align: center;
+}
+.testimonials__content span {
+    color:#7C8087;
+    font-size: 1.125em;
+}

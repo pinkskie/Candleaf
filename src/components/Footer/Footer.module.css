@@ -1,0 +1,38 @@
+.footer__wrapper {
+    background-color: #272727;
+    padding:4em 0;
+}
+.container {
+    max-width: 1110px;
+}
+.divider {
+    border:1px solid white;
+
+}
+.footer__title p {
+    color:white;
+    width: 17em;
+}
+.footer__content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:23em;
+}
+.footer__links {
+    display: flex;
+    gap:3em;
+    
+}
+.footer__links p{
+    color:#56B280;
+    align-items: center;
+    margin-top: 3em;
+}
+.footer__links ul li{
+    margin-top: 1em;
+}
+.footer__links ul li a{
+    text-decoration: none;
+    color:white;
+}
